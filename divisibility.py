@@ -29,7 +29,7 @@ def main():
         if num % b == 0:
             num_b = num_b + 1
 
-    # Calculate # of numbers divisble by both a and b:
+    # Calculate # of numbers divisble by both a and b // a or b:
     num_a_or_b = 0
     num_a_and_b = 0
     for n in range(lower_bound, upper_bound + 1):
